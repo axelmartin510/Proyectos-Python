@@ -4,7 +4,6 @@ def talla(ingreso):
     ingreso = ingreso.upper()
     while ingreso != "L" and ingreso != "M" and ingreso != "XL":
         ingreso = input("Error de campo: ")
-        ingreso = ingreso.upper()
     ingreso = ingreso.upper()
     return ingreso
 
