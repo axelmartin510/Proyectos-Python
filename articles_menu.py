@@ -1,4 +1,3 @@
-from calendar import c
 import sqlite3
 
 def talla(ingreso):
