@@ -1,8 +1,6 @@
 from calendar import c
 import sqlite3
 
-from black import remove_trailing_semicolon
-
 def talla(ingreso):
     ingreso = ingreso.upper()
     while ingreso != "L" and ingreso != "M" and ingreso != "XL":
